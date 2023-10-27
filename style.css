@@ -1,3 +1,10 @@
 #viewwork {
   border-radius: 50px !important;
 }
+
+/* Pour éviter les espaces blancs en version mobile */
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
